@@ -71,7 +71,7 @@ My core focus areas:
 |--------|------|---------|
 | May 2025 – Nov 2025 | Master's Thesis – OBC Analysis | Schaeffler Group, Regensburg |
 | Nov 2024 – Apr 2025 | Intern – System Simulation Power Electronics | Schaeffler Group, Regensburg |
-| Mar 2026 – Jun 2026 | Project Thesis – PCB Design | OTH Regensburg |
+| Mar 2025 – Jun 2026 | Project Thesis – PCB Design | OTH Regensburg |
 | May 2024 – Oct 2024 | Working Student – Hardware Analysis & PCB | Vitesco Technologies |
 | Jan 2023 – Mar 2024 | Intern – Drive Systems & ECU Verification | Vitesco Technologies |
 | Feb 2021 – Aug 2022 | Junior Electrical Engineer – UPS Systems | ARC Infotech (Vertiv), Kolkata |
