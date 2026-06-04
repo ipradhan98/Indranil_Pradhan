@@ -12,7 +12,7 @@
 
 ## 🧑‍💻 About me
 
-I'm an electrical engineer based in Regensburg, Germany, specialising in **power electronics, model-based development, and hardware design for automotive and EV systems**.
+I'm an electrical engineer based in Germany, specialising in **analog/digital circuits, power-electronics development, hardware development, PCB designing, system testing, and prototype validation. Skilled in MATLAB/Simulink, PLECS, SPICE and ECAD for analysis and design decisions, and comfortable working with lab instruments and structured documentation. Self-driven and structured, with a strong focus on solving problems and delivering results.**.
 
 Currently completing my **M.Eng. in Electrical & Microsystems Engineering** at OTH Regensburg (graduation: 2026), I have built ~3 years of hands-on industry experience through roles at **Schaeffler Group** and **Vitesco Technologies** — working across the full stack from simulation and control design to PCB layout and hardware-in-the-loop validation.
 
