@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Indranil Pradhan 👋</h1>
-<h3 align="center">Electrical Engineer · Power Electronics · Model-Based Development · EV Systems</h3>
+<h3 align="center">Electrical/Electronics Engineer · Power Electronics · Model-Based Development · EV Systems</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Location-Regensburg%2C%20Germany-blue?style=flat-square&logo=google-maps&logoColor=white" />
