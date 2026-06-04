@@ -12,16 +12,16 @@
 
 ## 🧑‍💻 About me
 
-I'm an electrical engineer based in Germany, specialising in **analog/digital circuits, power-electronics development, hardware development, PCB designing, system testing, and prototype validation. Skilled in MATLAB/Simulink, PLECS, SPICE and ECAD for analysis and design decisions, and comfortable working with lab instruments and structured documentation. Self-driven and structured, with a strong focus on solving problems and delivering results.**.
+I'm an electrical engineer based in Regensburg, Germany, specialising in **power electronics, analog/digital circuit design, PCB development, and model-based development for automotive and EV systems**.
 
-Currently completing my **M.Eng. in Electrical & Microsystems Engineering** at OTH Regensburg (graduation: 2026), I have built ~3 years of hands-on industry experience through roles at **Schaeffler Group** and **Vitesco Technologies** — working across the full stack from simulation and control design to PCB layout and hardware-in-the-loop validation.
+Currently completing my **M.Eng. in Electrical & Microsystems Engineering** at OTH Regensburg (graduation: 2026), I have built ~3 years of hands-on industry experience through roles at **Schaeffler Group** and **Vitesco Technologies** — working across the full stack from simulation and control design to PCB layout and hardware-in-the-loop validation. Self-driven and structured, with a strong focus on solving problems and delivering results.
 
 My core focus areas:
 
 - 🔋 **Power electronics** — AC/DC, DC/DC, DC/AC converter development (OBC, DAB, LLC, NPC, MMC, eAxle inverters)
-- 📐 **Modelling, Verification & Design** — MATLAB/Simulink v2018-2026, PLECS, Stateflow,Minitab, LTspice
-- 🖥️ **PCB & schematic design** — 4/6-layer mixed-signal boards; STM32, FPGA, PMIC, gate drivers; KiCad v5.0-10.0, Altium, Eagle
-- 🧪 **Hardware validation** — CAN/CAN-FD, CANoe, INCA, HIL testing, oscilloscopes, LCR meters,Signal Analyzer,Spectrum Analyzer
+- 📐 **Modelling & simulation** — MATLAB/Simulink (v2018–2026), PLECS, LTspice, Stateflow, Minitab; loss & thermal modelling for SiC, GaN, BDSGaN, IGBT
+- 🖥️ **PCB & schematic design** — 4/6-layer mixed-signal boards; STM32, FPGA, PMIC, gate drivers; KiCad (v5–10), Altium, Eagle
+- 🧪 **Hardware validation** — CAN/CAN-FD, CANoe, INCA, HIL testing, oscilloscopes, LCR meters, signal & spectrum analyzers
 - ⚙️ **Embedded firmware** — C, STM32, PIC, Infineon AURIX, TI C2000
 
 > 🎓 **Master's thesis @ Schaeffler** — 11 kW single-stage bidirectional OBC: designed modulation & control strategies improving converter efficiency by ~2%; developed loss & thermal models for SiC/GaN/BDSGaN; EMI filter design with LTspice.
@@ -33,11 +33,11 @@ My core focus areas:
 | | |
 |---|---|
 | **Topic** | Single-stage matrix-based AC/DC bidirectional OBC for EV charging |
-| **Power level** | 11 kW 3ph/1ph|
+| **Power level** | 11 kW (3-phase / 1-phase) |
 | **Key contribution** | SVPWM and PSM modulation & control strategy — ~2% efficiency improvement |
 | **Semiconductors** | SiC, GaN, BDSGaN — loss & thermal modelling in MATLAB/Simulink & PLECS |
-| **EMI/EMC** | Class A Filter design and analysis with LTspice per EMC requirements |
-| **Collaboration** | Fraunhofer IZM & Infineon — transformer design and BDSGaN device |
+| **EMI/EMC** | Class A filter design and analysis with LTspice per EMC requirements |
+| **Collaboration** | Fraunhofer IZM & Infineon — transformer design and BDSGaN device characterisation |
 | **Modulation** | SVPWM, PSM, DAB control |
 | **Tools** | MATLAB/Simulink 2024a, PLECS, LTspice, LaTeX |
 
@@ -82,7 +82,7 @@ My core focus areas:
 
 **🔓 Public — Power Electronics Simulation Models**
 
-> Here is few MATLAB/Simulink and PLECS simulation models covering inverter topologies, grid-connected systems, and converter control — developed during coursework and self-study.
+> MATLAB/Simulink and PLECS simulation models covering inverter topologies, grid-connected systems, and converter control — developed during coursework and self-study.
 
 [![PE-Simulation-Models](https://github-readme-stats.vercel.app/api/pin/?username=ipradhan98&repo=PE-Simulation-Models&theme=default&hide_border=true)](https://github.com/ipradhan98/PE-Simulation-Models)
 
@@ -91,15 +91,17 @@ Includes: Three-phase grid-connected inverter (IGBT) · Multi-level inverter · 
 ---
 
 **🔒 Private — Academic & Professional Projects**
+
 > Developed during academic and industry work. Available for review upon request.
+
 | Project | Description | Tools |
 |---------|-------------|-------|
-| [Analog-Frontend-FPGA DAQ board](https://github.com/ipradhan98/Analog-Frontend-FPGA) | Analog front-end ADC circuit with FPGA-based for Data Acquisition system and real time processing| AMD XC7S25, Xilinx, KiCad |
-| [IoT-Auto-Cut-Plug](https://github.com/ipradhan98/IoT-Auto-Cut-Plug) | IoT-based automatic power cut-off plug with smart control | ESP32, C |
-| [PMSM-Motor-Drive Controller](https://github.com/ipradhan98/PMSM-Motor-Drive) | 3-phase 48V 20A PMSM motor drive with STM32G4 and DRV8350 gate driver with Safe torque off, with all ESD protection, incremental encoder| STM32, Shunt/50xgainINA, BEMF/DCbus control,Temparature monitoring C, KiCad |
-| [Matrix-LED-Controller-Shield](https://github.com/ipradhan98/Matrix-LED-Controller) | Matrix LED control board with DLP2000 and PYNQ-Z1 | DLP, Pynq, FPGA |
-| [Relay-Test-Board](https://github.com/ipradhan98/Relay-Board-STM32) | 6-module relay board with PIC16 MCU and ICSP interface | PIC MCU, Emi filter,Snubber,Inrush limiter,Surge protection,Input polarity protection KiCad |
-| [STM32-Bluetooth](https://github.com/ipradhan98/STM32-Bluetooth) | STM32-based Bluetooth communication module | STM32, WIFI, Bluetoooth, Rf routingUART, C | rewrite this section only
+| [Analog-Frontend-FPGA DAQ Board](https://github.com/ipradhan98/Analog-Frontend-FPGA) | Analog front-end ADC circuit with FPGA-based real-time signal processing for data acquisition | AMD XC7S25, Xilinx Spartan-7, KiCad |
+| [IoT-Auto-Cut-Plug](https://github.com/ipradhan98/IoT-Auto-Cut-Plug) | IoT-based automatic power cut-off plug with remote smart control | ESP32, C, WiFi |
+| [PMSM-Motor-Drive Controller](https://github.com/ipradhan98/PMSM-Motor-Drive) | 3-phase 48V/20A PMSM motor drive — STM32G4 + DRV8350 gate driver; STO, incremental encoder, BEMF/DC-bus sensing, ESD protection, temperature monitoring | STM32G4, DRV8350, INA (50× gain), C, KiCad |
+| [Matrix-LED-Controller Shield](https://github.com/ipradhan98/Matrix-LED-Controller) | Matrix LED control board with DLP2000 projector module and PYNQ-Z1 FPGA interface | DLP2000, PYNQ-Z1, Xilinx FPGA |
+| [Relay-Test-Board](https://github.com/ipradhan98/Relay-Board-STM32) | 6-module relay test board with PIC16 MCU, ICSP interface, EMI filter, snubber, inrush limiter, surge & polarity protection | PIC16, KiCad |
+| [STM32-Bluetooth Module](https://github.com/ipradhan98/STM32-Bluetooth) | STM32-based dual wireless module with Bluetooth and WiFi; RF trace routing and antenna design | STM32, ESP32, BLE, WiFi, RF routing, UART |
 
 ---
 
