@@ -98,7 +98,7 @@ Includes: Three-phase grid-connected inverter (IGBT) · Multi-level inverter · 
 |---------|-------------|-------|
 | [Analog-Frontend-FPGA DAQ Board](https://github.com/ipradhan98/Analog-Frontend-FPGA) | Analog front-end ADC circuit with FPGA-based real-time signal processing for data acquisition | AMD XC7S25, Xilinx Spartan-7, KiCad |
 | [IoT-Auto-Cut-Plug](https://github.com/ipradhan98/IoT-Auto-Cut-Plug) | IoT-based automatic power cut-off plug with remote smart control | ESP32, C, WiFi |
-| [PMSM-Motor-Drive Controller](https://github.com/ipradhan98/PMSM-Motor-Drive) | 3-phase 48V/20A PMSM motor drive — STM32G4 + DRV8350 gate driver; STO, incremental encoder, BEMF/DC-bus sensing, ESD protection, temperature monitoring | STM32G4, DRV8350, INA (50× gain), C, KiCad |
+| [PMSM-Motor-Drive Controller](https://github.com/ipradhan98/PMSM-Motor-Drive) | 3-phase 48V/20A PMSM motor drive — STM32G4 + DRV8350 gate driver; FOC, STO, incremental encoder, BEMF/DC-bus sensing, ESD protection, temperature monitoring | STM32G4, DRV8350, INA (50× gain), C, KiCad |
 | [Matrix-LED-Controller Shield](https://github.com/ipradhan98/Matrix-LED-Controller) | Matrix LED control board with DLP2000 projector module and PYNQ-Z1 FPGA interface | DLP2000, PYNQ-Z1, Xilinx FPGA |
 | [Relay-Test-Board](https://github.com/ipradhan98/Relay-Board-STM32) | 6-module relay test board with PIC16 MCU, ICSP interface, EMI filter, snubber, inrush limiter, surge & polarity protection | PIC16, KiCad |
 | [STM32-Bluetooth Module](https://github.com/ipradhan98/STM32-Bluetooth) | STM32-based dual wireless module with Bluetooth and WiFi; RF trace routing and antenna design | STM32, ESP32, BLE, WiFi, RF routing, UART |
