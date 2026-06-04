@@ -14,13 +14,13 @@
 
 I'm an electrical engineer based in Regensburg, Germany, specialising in **power electronics, analog/digital circuit design, PCB development, and model-based development**.
 
-Currently completing my **M.Eng. in Electrical & Microsystems Engineering** at OTH Regensburg (graduation: 2026), I have built ~3 years of hands-on industry experience through roles at **Schaeffler Group** and **Vitesco Technologies** — working across the full stack from simulation and control design to PCB layout and hardware-in-the-loop validation. Self-driven and structured, with a strong focus on solving problems and delivering results.
+Currently completing my **M.Eng. in Electrical & Microsystems Engineering** at OTH Regensburg (graduation: Sep 2026), I have built ~3 years of hands-on industry experience through roles at **Schaeffler Group** and **Vitesco Technologies** — working across the full stack from simulation and control design to PCB layout and hardware-in-the-loop validation. Self-driven and structured, with a strong focus on solving problems and delivering results.
 
 My core focus areas:
 
 - 🔋 **Power electronics** — AC/DC, DC/DC, DC/AC converter development (OBC, DAB, LLC, NPC, MMC, eAxle inverters)
-- 📐 **Modelling & simulation** — MATLAB/Simulink (v2018–2026), PLECS, LTspice, Stateflow, Minitab; loss & thermal modelling for SiC, GaN, BDSGaN, IGBT
-- 🖥️ **PCB & schematic design** — 4/6-layer mixed-signal boards; STM32, FPGA, PMIC, gate drivers; KiCad (v5–10), Altium, Eagle
+- 📐 **Modelling & simulation** — MATLAB/Simulink (v2018–2026), PLECS, LTspice, Stateflow, Minitab
+- 🖥️ **PCB & schematic design** — 4/6-layer mixed-signal boards; LDO, PMIC, DCDC, gate drivers; KiCad (v5–10), Altium, Eagle
 - 🧪 **Hardware validation** — CAN/CAN-FD, CANoe, INCA, HIL testing, oscilloscopes, LCR meters, signal & spectrum analyzers
 - ⚙️ **Embedded firmware** — C, STM32, PIC, Infineon AURIX, TI C2000
 
