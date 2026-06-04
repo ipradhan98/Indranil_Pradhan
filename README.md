@@ -82,7 +82,7 @@ My core focus areas:
 
 **🔓 Public — Power Electronics Simulation Models**
 
-> MATLAB/Simulink and PLECS simulation models covering inverter topologies, grid-connected systems, and converter control — developed during coursework and self-study.
+> Here is few MATLAB/Simulink and PLECS simulation models covering inverter topologies, grid-connected systems, and converter control — developed during coursework and self-study.
 
 [![PE-Simulation-Models](https://github-readme-stats.vercel.app/api/pin/?username=ipradhan98&repo=PE-Simulation-Models&theme=default&hide_border=true)](https://github.com/ipradhan98/PE-Simulation-Models)
 
