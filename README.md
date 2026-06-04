@@ -19,9 +19,9 @@ Currently completing my **M.Eng. in Electrical & Microsystems Engineering** at O
 My core focus areas:
 
 - 🔋 **Power electronics** — AC/DC, DC/DC, DC/AC converter development (OBC, DAB, LLC, NPC, MMC, eAxle inverters)
-- 📐 **Model-based development** — MATLAB/Simulink, PLECS, Stateflow, System Composer; loss & thermal modelling for SiC, GaN, BDSGaN, IGBT
-- 🖥️ **PCB & schematic design** — 4/6-layer mixed-signal boards; STM32, FPGA, PMIC, gate drivers; KiCad, Altium, Eagle
-- 🧪 **Hardware validation** — CAN/CAN-FD, CANoe, INCA, HIL testing, oscilloscopes, LCR meters
+- 📐 **Modelling, Verification & Design** — MATLAB/Simulink v2018-2026, PLECS, Stateflow,Minitab, LTspice
+- 🖥️ **PCB & schematic design** — 4/6-layer mixed-signal boards; STM32, FPGA, PMIC, gate drivers; KiCad v5.0-10.0, Altium, Eagle
+- 🧪 **Hardware validation** — CAN/CAN-FD, CANoe, INCA, HIL testing, oscilloscopes, LCR meters,Signal Analyzer,Spectrum Analyzer
 - ⚙️ **Embedded firmware** — C, STM32, PIC, Infineon AURIX, TI C2000
 
 > 🎓 **Master's thesis @ Schaeffler** — 11 kW single-stage bidirectional OBC: designed modulation & control strategies improving converter efficiency by ~2%; developed loss & thermal models for SiC/GaN/BDSGaN; EMI filter design with LTspice.
@@ -33,13 +33,13 @@ My core focus areas:
 | | |
 |---|---|
 | **Topic** | Single-stage matrix-based AC/DC bidirectional OBC for EV charging |
-| **Power level** | 11 kW |
-| **Key contribution** | Advanced modulation & control strategy — ~2% efficiency improvement |
+| **Power level** | 11 kW 3ph/1ph|
+| **Key contribution** | SVPWM and PSM modulation & control strategy — ~2% efficiency improvement |
 | **Semiconductors** | SiC, GaN, BDSGaN — loss & thermal modelling in MATLAB/Simulink & PLECS |
-| **EMI/EMC** | Filter design and analysis with LTspice per EMC requirements |
-| **Collaboration** | Fraunhofer IZM — transformer design and loss modelling |
+| **EMI/EMC** | Class A Filter design and analysis with LTspice per EMC requirements |
+| **Collaboration** | Fraunhofer IZM & Infineon — transformer design and BDSGaN device |
 | **Modulation** | SVPWM, PSM, DAB control |
-| **Tools** | MATLAB/Simulink, PLECS, LTspice, System Composer |
+| **Tools** | MATLAB/Simulink 2024a, PLECS, LTspice, LaTeX |
 
 ---
 
@@ -71,7 +71,7 @@ My core focus areas:
 |--------|------|---------|
 | May 2025 – Nov 2025 | Master's Thesis – OBC Analysis | Schaeffler Group, Regensburg |
 | Nov 2024 – Apr 2025 | Intern – System Simulation Power Electronics | Schaeffler Group, Regensburg |
-| Dec 2025 – Mar 2026 | Project Thesis – PCB Design | OTH Regensburg |
+| Mar 2026 – Jun 2026 | Project Thesis – PCB Design | OTH Regensburg |
 | May 2024 – Oct 2024 | Working Student – Hardware Analysis & PCB | Vitesco Technologies |
 | Jan 2023 – Mar 2024 | Intern – Drive Systems & ECU Verification | Vitesco Technologies |
 | Feb 2021 – Aug 2022 | Junior Electrical Engineer – UPS Systems | ARC Infotech (Vertiv), Kolkata |
@@ -91,17 +91,15 @@ Includes: Three-phase grid-connected inverter (IGBT) · Multi-level inverter · 
 ---
 
 **🔒 Private — Academic & Professional Projects**
-
 > Developed during academic and industry work. Available for review upon request.
-
 | Project | Description | Tools |
 |---------|-------------|-------|
-| [Analog-Frontend-FPGA](https://github.com/ipradhan98/Analog-Frontend-FPGA) | Analog front-end ADC circuit with FPGA-based signal processing for DAQ | FPGA, Xilinx, KiCad |
+| [Analog-Frontend-FPGA DAQ board](https://github.com/ipradhan98/Analog-Frontend-FPGA) | Analog front-end ADC circuit with FPGA-based for Data Acquisition system and real time processing| AMD XC7S25, Xilinx, KiCad |
 | [IoT-Auto-Cut-Plug](https://github.com/ipradhan98/IoT-Auto-Cut-Plug) | IoT-based automatic power cut-off plug with smart control | ESP32, C |
-| [PMSM-Motor-Drive](https://github.com/ipradhan98/PMSM-Motor-Drive) | 3-phase PMSM motor drive with FOC algorithm and DRV8350 gate driver | STM32, C, KiCad |
-| [Matrix-LED-Controller](https://github.com/ipradhan98/Matrix-LED-Controller) | Matrix LED control board with FPGA-based firmware | DLP, Pynq, FPGA |
-| [Relay-Board-STM32](https://github.com/ipradhan98/Relay-Board-STM32) | 6-module relay board with PIC MCU and ICSP interface | PIC MCU, KiCad |
-| [STM32-Bluetooth](https://github.com/ipradhan98/STM32-Bluetooth) | STM32-based Bluetooth communication module | STM32, UART, C |
+| [PMSM-Motor-Drive Controller](https://github.com/ipradhan98/PMSM-Motor-Drive) | 3-phase 48V 20A PMSM motor drive with STM32G4 and DRV8350 gate driver with Safe torque off, with all ESD protection, incremental encoder| STM32, Shunt/50xgainINA, BEMF/DCbus control,Temparature monitoring C, KiCad |
+| [Matrix-LED-Controller-Shield](https://github.com/ipradhan98/Matrix-LED-Controller) | Matrix LED control board with DLP2000 and PYNQ-Z1 | DLP, Pynq, FPGA |
+| [Relay-Test-Board](https://github.com/ipradhan98/Relay-Board-STM32) | 6-module relay board with PIC16 MCU and ICSP interface | PIC MCU, Emi filter,Snubber,Inrush limiter,Surge protection,Input polarity protection KiCad |
+| [STM32-Bluetooth](https://github.com/ipradhan98/STM32-Bluetooth) | STM32-based Bluetooth communication module | STM32, WIFI, Bluetoooth, Rf routingUART, C | rewrite this section only
 
 ---
 
